@@ -42,5 +42,6 @@ def search(request):
         'keyword':keyword,
     }
     return render(request, 'search.html',context)
+    
 
     
